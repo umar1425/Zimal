@@ -15,7 +15,7 @@ var img = document.querySelector("img");
 var counter = 1;
 
 btn.addEventListener("click", function() {
-    if (counter === 6){
+    if (counter === 9){
         counter = 0;
     }
     img.src = pics[counter]
